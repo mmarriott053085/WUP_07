@@ -27,7 +27,9 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
+## Methods
 
+Based on the problem description presents, the problem can be solved by using a categorical~categorical as we are comparing two categorical data types. The first is whether the patient is male or female, the second is whether the patient is dead or alive.
 
 
 
