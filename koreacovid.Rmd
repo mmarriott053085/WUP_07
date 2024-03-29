@@ -54,6 +54,13 @@ The two graphs show that women are contracting Covid at a higher rate. However, 
 
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numerical data infers the conclusive results from the graphical data, the contraction rate of Covid is higher among women than men, but the mortality  percentage rate among men is  higher than women.
 
 ## Inferential results 
 
