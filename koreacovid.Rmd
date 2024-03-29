@@ -64,8 +64,13 @@ The numerical data infers the conclusive results from the graphical data, the co
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+After running the inferential tests, it was concluded that the p-value is 0.0009, which is far lower than 0.05. Based on the results it can be said that men are more than twice as likely to die from Covid than women.
 
 ## Conclusions
 
